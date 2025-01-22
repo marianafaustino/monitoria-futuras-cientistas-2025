@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nostalgia dos Brinquedos</title>
     <link href="./style.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html" class="logo">
-                <img src="imagens/logo.png" alt="Logo Brinquedos">
+            <!-- Logo -->
+            <a href="../index.html" class="logo">
+                <img src="./imagens/logo.png" alt="Logo Brinquedos">
             </a>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#ranking">Ranking Top</a></li>
-                <li><a href="#estranhos">Brinquedos Bizarros</a></li>
-                <li><a href="#colecao">Colecionáveis</a></li>
+    
+            <!-- Botão Hambúrguer -->
+            <button id="menu-hamburger" class="menu-hamburger">
+                &#x2630
+            </button>
+    
+            <!-- Menu de Navegação -->
+            <ul id="nav-menu">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="ranking/index.html">Ranking</a></li>
+                <li><a href="estranhos/index.html">Brinquedos Bizarros</a></li>
+                <li><a href="colecao/index.html">Colecionáveis</a></li>
             </ul>
         </nav>
     </header>
+    
 
     <main>
         <section class="hero">

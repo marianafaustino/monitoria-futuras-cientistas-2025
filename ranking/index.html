@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Brinquedos</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="ranking.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Logo -->
+            <a href="../index.html" class="logo">
+                <img src="../imagens/logo.png" alt="Logo Brinquedos">
+            </a>
+    
+            <!-- Botão Hambúrguer -->
+            <button id="menu-hamburger" class="menu-hamburger">
+                ☰
+            </button>
+    
+            <!-- Menu de Navegação -->
+            <ul id="nav-menu">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="ranking/index.html">Ranking</a></li>
+                <li><a href="estranhos/index.html">Brinquedos Bizarros</a></li>
+                <li><a href="colecao/index.html">Colecionáveis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ranking-completo">
+            <h1>🏆 Top 10 Brinquedos Mais Famosos dos Anos 90 e 2000</h1>
+            
+            <div class="lista-ranking">
+                <div class="item-ranking-full">
+                    <span class="posicao">1</span>
+                    <img src="../imagens/tamagotchi.jpeg" alt="Tamagotchi">
+                    <div class="detalhes">
+                        <h2>Tamagotchi</h2>
+                        <p>O bichinho virtual que conquistou o mundo! Lançado em 1996 no Japão, rapidamente se espalhou globalmente. Crianças cuidavam de um pet digital 24 horas por dia.</p>
+                        <ul>
+                            <li>Criado pela Bandai</li>
+                            <li>Vendeu mais de 82 milhões de unidades</li>
+                            <li>Revolucionou os brinquedos eletrônicos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item-ranking-full">
+                    <span class="posicao">2</span>
+                    <img src="../imagens/pokemon.jpg" alt="Pokémon">
+                    <div class="detalhes">
+                        <h2>Pokémon</h2>
+                        <p>Fenômeno mundial que começou como um jogo de Game Boy em 1996 e se transformou em desenho, filme, cartas e muito mais!</p>
+                        <ul>
+                            <li>Criado por Satoshi Tajiri</li>
+                            <li>Mais de 1000 espécies de Pokémon</li>
+                            <li>Franquia avaliada em bilhões de dólares</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item-ranking-full">
+                    <span class="posicao">3</span>
+                    <img src="../imagens/yugioh.jpg" alt="Yu-Gi-Oh">
+                    <div class="detalhes">
+                        <h2>Yu-Gi-Oh</h2>
+                        <p>Jogo de cartas que dominou os recreios e transformou duelos em verdadeiras batalhas épicas!</p>
+                        <ul>
+                            <li>Baseado no mangá de Kazuki Takahashi</li>
+                            <li>Popularizado em 1999</li>
+                            <li>Milhões de cartas colecionadas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Adicione os próximos 7 itens seguindo o mesmo modelo -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Nostalgia dos Brinquedos</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuHamburger = document.getElementById('menu-hamburger');
+            const navMenu = document.getElementById('nav-menu');
+    
+            menuHamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
