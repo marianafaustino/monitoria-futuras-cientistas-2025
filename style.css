@@ -37,7 +37,7 @@ nav > ul > li > a{
 footer{
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: gray;
     color: white;
     text-align: center;
